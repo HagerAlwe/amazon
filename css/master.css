@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(184, 184, 184, 0.581);
+}
+.header {
+    background-color:  rgb(8, 8, 32);
+    
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.conteaier {
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.nav .conteaier .note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .conteaier .note .long-long-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav .conteaier .note .long-long-1 a {
+    color: aliceblue;
+
+}
+.nav .conteaier .note .long-long-1 a:hover {
+    border: 1px solid white;
+
+}
+.nav .conteaier .note .long-long-1 img {
+    width: 30%;
+    height: 36px;
+}
+
+.nav .conteaier .note .long-long-1 img:hover {
+    border: 1px solid white;
+}
+.nav .conteaier .note .long-long-1 a span {
+    display: block;
+}
+.nav .conteaier .note .long-long-2 {
+    width: 42%;
+    border-radius: 5px;
+}
+.nav .conteaier .note .long-long-2 form {
+    position: relative;
+}
+.nav .conteaier .note .long-long-2 form input {
+    outline: none;
+    padding: 9px;
+    width: 100%;
+}
+.nav .conteaier .note .long-long-2 a i {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    background-color: bisque;
+    color: #000;
+    padding: 10px;
+}
+.nav .conteaier .note .long-long-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+.nav .conteaier .note .long-long-3 a {
+    color: aliceblue;
+    text-align: center;
+    width: 25%;
+
+}
+
+.nav .conteaier .note .long-long-3 a:hover {
+    border: 1px solid white;
+    padding: 3px;
+}
+
+.nav .conteaier .note .long-long-3 a img {
+    width: 15%;
+}
+
+
+
+.section-1 {
+    background-color: #09081c;
+    height: 60px;
+    padding: 15px;
+}
+.section-1 .one {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-1 .two {
+    display: flex;
+    justify-content:space-between ;
+    align-content: center;
+}
+.section-1 .one 
+.panar-1 a,
+.panar-2 a,
+.panar-3 a,
+.panar-4 a,
+.panar-5 a,
+.panar-6 a,
+.panar-7 a,
+.panar-8 a,
+.panar-9 a,
+.panar-10 a {
+    text-decoration: none;
+    color: white;
+}
+.section-1 .two 
+.panar-8 i,
+.panar-9 i,
+.panar-10 i {
+color: white;
+}
+.section-1 .one 
+.panar-1 a:hover ,
+.panar-2 a:hover ,
+.panar-3 a:hover ,
+.panar-4 a:hover ,
+.panar-5 a:hover ,
+.panar-6 a:hover ,
+.panar-7 a:hover ,
+.panar-8 a:hover ,
+.panar-9 a:hover ,
+.panar-10 a:hover {
+    border: 2px solid white;
+}
+.section-2 .slander {
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-name: slader;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(../img/22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes slader {
+    0% {
+        background-image: url(../img/55.jpg);
+    }
+
+    25% {
+        background-image: url(../img/66.jpg);
+    }
+
+    50% {
+        background-image: url(../img/77.jpg);
+    }
+
+    75% {
+        background-image: url(../img/88.jpg);
+    }
+
+    100% {
+        background-image: url(../img/99.jpg);
+    }
+}
+
+.section-2 .slander::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    border-width: 30px ;
+    border-style: solid;
+    border-color: transparent rgb(105, 99, 99) transparent transparent;
+}
+
+
+.section-2 .slander::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    border-width: 30px ;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(105, 99, 99);
+}
+.section-3 .Anew-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0; 
+}
+.section-3 .Anew-1 .one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100% / 60px) /4;
+    background-color: white;
+}
+
+.section-3 .Anew-1 .one h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    max-width: 190px;
+    padding-left: 20px;
+}
+.section-3 .Anew-1 .one img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+}
+
+.section-3 .Anew-1 .one .q{
+    color: rgb(45, 104, 53);
+    padding-left: 20px;
+    width: 39%;
+}
+
+.section-3 .Anew-1 .one .q:hover {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.section-3 .Anew-1 .two {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: calc(100% / 60px) /3;
+    background-color: white;
+}
+.section-3 .Anew-1 .two img {
+    width: 300px;
+    height: 300px;
+}
+.section-3 .Anew-1 .three {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: calc(100% / 60px) /3;
+}
+.section-3 .Anew-1 .three img {
+    width: 300px;
+    height: 300px;
+}
+.section-3 .Anew-1 p  {
+    color: rgb(47, 126, 56);
+}
+.section-3 .Anew-1 p:hover {
+    color: #09081c;
+}
+.section-4 .Anew-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.section-4 .Anew-1 .one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: calc(100% / 60px) /3;
+    background-color: white;
+}
+.section-4 .Anew-1 .one img {
+    width: 300px;
+    height: 300px;
+    
+}
+.section-4 .Anew-1 .two {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: calc(100% / 60px) /3;
+    background-color: white;
+}
+.section-4 .Anew-1 .two img {
+    width: 300px;
+    height: 300px;
+}
+.section-4 .Anew-1 .three {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: calc(100% / 60px) /3;
+}
+.section-4 .Anew-1 .three img {
+    width: 300px;
+    height: 300px;
+}
+.section-4 .Anew-1 p  {
+    color: rgb(47, 126, 56);
+}
+.section-4 .Anew-1 p:hover {
+    color: #09081c;
+}
+.section-5 .Anew-2 {
+    background-color: white;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+.section-5 .Anew-2 a{
+    text-decoration: none;
+}
+.section-5 .Anew-2 a {
+    color: black;
+    font-size: 25px;
+}
+.section-5 .Anew-2 a span {
+    font-size: 15px;
+    color: teal;
+}
+.section-5 .Anew-2 a span:hover {
+    font-size: 15px;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+.section-5 .Anew-2 a img {
+    width: 100%;
+}
+.section-5 .Anew-2 .two a img {
+    width: 90%;
+}
+.section-5 {
+    margin-bottom: 20px;
+}
+.section-6 {
+    margin-bottom: 15px;
+}
+.section-6 .Anew-3 {
+    background-color: white;
+    border-radius: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-6 .Anew-3 .one button {
+    width: 100%;
+    height: 20px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+}
+.section-6 .Anew-3 .one button:hover {
+    background-color: rgb(239, 176, 30);
+}
+
+.section-6 .Anew-3 .one p{
+    text-align: center;
+    padding: 10px;
+}
+.section-7 {
+    background-color: #093661;
+}
+.section-7:hover {
+    opacity: .9;
+}
+.section-7 .conteaier .main-p {
+    /* height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-7 .conteaier .main-p  a {
+    color: white;
+    padding: 15px;
+}
+
+.section-8 {
+    background-color: #072949;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.333);
+
+
+}
+
+.section-8 .conteaier .main-pp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.section-8 .conteaier .main-pp .modl-1 h3 {
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.section-8 .conteaier .main-pp .modl-1 ul {
+    list-style: none;
+    line-height: 30px;
+    padding: 10px;
+    
+}
+.section-8 .conteaier .main-pp .modl-1 ul li a {
+    color: white;
+}
+
+
+.section-8 .conteaier .main-pp .modl-1 ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.section-9 {
+    padding: 10px;
+    background-color: #072949;
+}
+.section-9 .conteaier .img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-9 .conteaier .img a img {
+    width: 60%;
+}
+
+.section-9 .conteaier .img a img:hover {
+    opacity: .9;
+}
+.section-10 {
+    background-color: #09081c;
+}
+.section-10 .conteaier .links .link-1 {
+    display: flex;
+    justify-content: center;
+}
+.section-10 .conteaier .links .link-1 table tbody{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+}
+
+.section-10 .conteaier .links .link-1 table tbody tr td a{
+    color: white;
+} 
+
+.section-10 .conteaier .links .link-1 table tbody tr td a:hover{
+    border-bottom:1px solid white;
+} 
+
+
+@media (min-width:200px) and (max-width:1200px){
+    .nav .conteaier .note .long-long-1 a {
+
+        display: none;
+    }
+
+    .section-1 .one {
+        display: none;
+    }
+
+    .nav .conteaier .note .long-long-3{
+    display: none;
+}
+
+.header {
+    width: 83%;
+}
+
+.section-1 {
+    width: 83%;
+
+}
+
+.section-2 .slander {
+    background-size: contain;
+    width: 83%;
+    height: 158px;
+}
+
+.section-2 .slander::after,.section-2 .slander::before {
+    display: none;
+} 
+
+.nav .conteaier .note .long-long-1 img {
+width: 87%;
+}
+
+.nav .conteaier .note .long-long-2 {
+width: 85%;
+}
+
+
+.section-3 .Anew-1 .one {
+    width: 82%;
+}
+
+.section-3 .Anew-1 {
+    flex-direction: column;
+}
+
+.section-5 .Anew-2 {
+    flex-direction: column;
+    width: 80%;
+}
+
+.section-6 .Anew-3 {
+    width: 80%;
+}
+
+
+.section-6 .Anew-3 .one button {
+    width: 85%;
+    margin-left: 14%;
+}
+
+.section-7 {
+    width: 82%;}
+
+    
+.section-8 {
+    width: 82%;
+}
+
+
+.section-8 .conteaier .main-pp {
+    flex-direction: column;
+}
+
+
+.section-9 {
+    width: 83%;
+}
+
+
+.section-10 {
+    display: none;
+}
+}
+
+
+
+
+
